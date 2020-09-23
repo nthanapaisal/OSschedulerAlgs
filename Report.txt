@@ -1,0 +1,85 @@
+Assignment 2 report for Supakjeera Thanapaisal:
+a) None, worked by myself till 5AM
+b) Status: Completed.
+c) Comment: -
+d) Program output:
+	1. 9 test cases for fcfs
+	2. ls -l *.all + wc *.all + md5sum *.all
+
+
+Test 1: 3 8 7 3 6 3 2
+
+scheduler fcfs:
+RRRRRRRRwwwwwwwRRR 
+rrrrrrrrRRRRRRwwwrRR 
+0 9 4.5 0.95000 
+
+Test 2: 3 8 7 3 6 7 2
+
+scheduler fcfs:
+RRRRRRRRwwwwwwwRRR 
+rrrrrrrrRRRRRRwwwwwwwRR 
+0 8 4.0 0.82609 
+
+Test 3: 4 8 7 3 6 1 2
+
+scheduler fcfs:
+RRRRRRRRwwwwwwwRRR 
+rrrrrrrrRRRRRRwrrrRR 
+0 11 5.5 0.95000 
+
+Test 4: 3 3 3 4 2 1 2
+
+scheduler fcfs:
+RRRwwwRRRR 
+rrrRRwrrrrRR 
+0 7 3.5 0.91667 
+
+Test 5: 3 3 2 3 2 1 2
+
+scheduler fcfs:
+RRRwwRRR 
+rrrRRwrrRR 
+0 5 2.5 1.00000 
+
+Test 6: 3 5 2 5 4 1 1
+
+scheduler fcfs:
+RRRRRwwrrRRRRR 
+rrrrrRRRRwrrrrR 
+2 9 5.5 1.00000 
+
+Test 7: 3 2 3 4 1 1 5
+
+scheduler fcfs:
+RRwwwrrrrRRRR 
+rrRwRRRRR 
+4 2 3.0 0.92308 
+
+Test 8: 3 2 3 4 1 4 1
+
+scheduler fcfs:
+RRwwwRRRR 
+rrRwwwwrrR 
+0 4 2.0 0.80000 
+
+Test 9: 3 2 3 4 5 6 2
+
+scheduler fcfs:
+RRwwwrrRRRR 
+rrRRRRRwwwwwwRR 
+2 2 2.0 0.86667 
+
+-rw-r--r-- 1 iaf873 students 44344515 Sep 23 05:19 fcfs.all
+-rw-r--r-- 1 iaf873 students 42267264 Sep 23 05:19 psjf.all
+-rw-r--r-- 1 iaf873 students 46409194 Sep 23 05:19 rr.all
+-rw-r--r-- 1 iaf873 students 43243799 Sep 23 05:19 sjf.all
+  2000001   2000003  44344515 fcfs.all
+  2000001   2000003  42267264 psjf.all
+  2000001   2000003  46409194 rr.all
+  2000001   2000003  43243799 sjf.all
+  8000004   8000012 176264772 total
+2be6461f5d8970238f6edc53bf9bcb5f  fcfs.all
+865938b5c84f1af6614fe5d7c816693e  psjf.all
+777319806052527c79ad86331a0f3437  rr.all
+e929ee37a27e89ddbc066574a09881cb  sjf.all
